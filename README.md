@@ -12,8 +12,9 @@ It comes under the MIT license, so happy hacking!
 
 ### Get These
 
- - [libmicrohttpd](http://www.gnu.org/software/libmicrohttpd/)
- - [libpq](http://www.postgresql.org/docs/9.4/static/libpq.html)
+ - [cmake](http://www.cmake.org/) build system
+ - GNU [libmicrohttpd](http://www.gnu.org/software/libmicrohttpd/)
+ - PostgreSQL [libpq](http://www.postgresql.org/docs/9.4/static/libpq.html)
 
 ### Clone
 
