@@ -1,11 +1,26 @@
 # Flutter
 ### 0.3.0
 
-An HTTPS/SPDY server with the ultimate compromise between speed and flexibility. Fast, direct, light, and powered by LUA and libmicrohttpd. Secure connection and some postgres examples are next in the roadmap.
+An HTTPS/SPDY server with the ultimate compromise between speed and
+flexibility. Fast, direct, light, and powered by [LUA](http://www.lua.org/) and
+[libmicrohttpd](http://www.gnu.org/software/libmicrohttpd/). Secure connection
+and some postgres examples are next in the roadmap.
 
 It comes under the MIT license, so happy hacking!
 
-## Build
+## Usage
+
+### Get These
+
+ - [libmicrohttpd](http://www.gnu.org/software/libmicrohttpd/)
+ - [libpq](http://www.postgresql.org/docs/9.4/static/libpq.html)
+
+### Clone
+
+    git clone https://github.com/grim-fandango/Flutter.git
+    cd Flutter
+
+### Build
 
     mkdir build
     cd build
@@ -32,7 +47,7 @@ There are no other web frameworks or servers which can accomplish all of these t
 
 Obviously vulnerability is not on that list. Indeed, that has been the primary concern of every open source server project of merit. Flutter aims to be different by promising to leverage only already heavily supported and tested software projects (such as LUA, LuaSQL, libmicrohttpd, ...), thus operating safely at it's core, but with an emphasis on minimalism and rapid deployment.
 
-Flutter will always be a LUA interface for HTTP, *SQL, and JSON. LUA itself is extremely fast and light compared to other interpreted solutions, and only heavily optimized and field tested libraries and code will be used in releases. Coverity static analysis, regular builds, unit testing, and a fuzzer will be used to ensure that from the _0.6.x stable release_, Flutter is totally robust.
+Flutter will always be a LUA interface for HTTP, \*SQL, and JSON. LUA itself is extremely fast and light compared to other interpreted solutions, and only heavily optimized and field tested libraries and code will be used in releases. Coverity static analysis, regular builds, unit testing, and a fuzzer will be used to ensure that from the _0.6.x stable release_, Flutter is totally robust.
 
 ## Help out
 
@@ -41,6 +56,7 @@ Help write Flutter! If you find a bug, file an issue report and write a patch if
 ### Coding
 
 Just a couple of rules on this project:
+
  - Fat is ugly.
  - Try things in agile sprints.
  - Cleanup is incremental.
@@ -59,7 +75,7 @@ Flutter needs to see some action! If you are considering building a small server
  - Full exploit safe HTTP transmission to LUA table translation in both directions.
  - Secure LUA panic and resume.
  - Large POST payload handling.
- - Compliant with HTTP/1.1 to the extent of (libmicrohttpd)[http://www.gnu.org/software/libmicrohttpd/]
+ - Compliant with HTTP/1.1 to the extent of [libmicrohttpd](http://www.gnu.org/software/libmicrohttpd/)
 
 ## As of 0.4.0, we will support
 
