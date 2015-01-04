@@ -119,6 +119,6 @@ Flutter needs to see some action! If you are considering building a small server
 
  - SPDY support
  - Simple reverse proxy mode
- - Replace LUA allocs with (podalloc)[https://github.com/grim-fandango/podalloc] to the greatest extent possible
+ - Replace LUA allocs with [podalloc](https://github.com/grim-fandango/podalloc) to the greatest extent possible
  - Advanced security and scaling controls
  - MOSIX clustering tools
