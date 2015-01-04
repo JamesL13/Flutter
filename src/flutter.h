@@ -1,8 +1,21 @@
+#ifndef FLUTTER_H
+#define FLUTTER_H
 
-/* configuration */
-#define POSTBUFFERSIZE  512
-#define MAXCLIENTS      12000
-#define DEFAULTPORT     8080
+#include "flutterconfig.h"
+
+#include <sys/types.h>
+#include <sys/select.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <unistd.h>
+
+#include <microhttpd.h>
+
+#include <stdlib.h>
+#include <stdio.h>
+
+#include "lua_entry.h"
+#include "grim_podalloc.h"
 
 enum /* HTTP 1.1 methods */
 {
@@ -131,4 +144,6 @@ static const char *USAGE =
 
 /* parse command line arguments */
 static const char *parseargs(int argc, char *argv[], uint16_t *port_no);
+
+#endif
 

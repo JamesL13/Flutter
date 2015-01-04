@@ -12,7 +12,7 @@
 #include "lua_entry.h"
 #include "grim_podalloc.h"
 
-#include "main.h"
+#include "flutter.h"
 
 /* globals */
 servlet_t servlet;
