@@ -1,5 +1,4 @@
 # Flutter
-### 0.3.0
 
 An HTTPS/SPDY server with the ultimate ultimate union of speed and
 flexibility. Fast, direct, light, and powered by [LUA](http://www.lua.org/) and
